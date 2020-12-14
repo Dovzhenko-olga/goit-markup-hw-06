@@ -8,6 +8,7 @@
     --footer-back-color: #2F303A;
     --absolutly-black-color: #000000;
     --border-gray-color: #EEEEEE;
+    --social-gray-color: #afb1b8;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 a { 
@@ -190,7 +191,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.subscribe .social-item {
+.subscribe .social-item a{
     background-color: rgba(255, 255, 255, 0.1);
     --color3: var(--primary-white-color);
 }

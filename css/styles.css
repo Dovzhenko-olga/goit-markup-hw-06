@@ -40,6 +40,7 @@
 }
 .hero button:hover, .hero button:focus {
     background-color: #188CE8;
+    cursor: pointer;
 }
 
 /* main */

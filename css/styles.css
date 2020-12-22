@@ -497,7 +497,6 @@ border-radius: 0px 0px 4px 4px;
 .agreement {
     display: flex;
     justify-content: center;
-    align-items: baseline;
     margin-bottom: 30px;
     font-family: Roboto;
     font-style: normal;
@@ -507,13 +506,15 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.check {
+    display: flex;
+    align-items: center;
+}
 .check::before {
     display: inline-block;
     content: '';
     width: 16px;
     height: 15px;
-}
-.check::before {
     margin-right: 8px;
     background-image: url(../images/checkbox.svg);
     fill: var(--title-text-color);

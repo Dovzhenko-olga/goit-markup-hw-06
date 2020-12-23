@@ -534,8 +534,18 @@ border-radius: 0px 0px 4px 4px;
     padding-left: 12px;
 }
 .agreement a {
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
+    position: relative;
     color: var(--hover-color);
+}
+.agreement a:before {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: currentColor;
 }
 .modal-button {
     width: 200px;
